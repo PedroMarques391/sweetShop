@@ -32,6 +32,7 @@ const Footer = (): React.JSX.Element => {
                         target="_blank"
                         rel="noreferrer"
                         className="w-8 h-8 flex items-center justify-center hover:text-[#70cbdd] rounded-full"
+                        aria-label="Facebook"
                     >
                         <FaFacebook className='w-full h-full' />
                     </Link>
@@ -40,6 +41,7 @@ const Footer = (): React.JSX.Element => {
                         target="_blank"
                         rel="noreferrer"
                         className="w-8 h-8 flex items-center justify-center hover:text-[#70cbdd] rounded-full"
+                        aria-label="Instagram"
                     >
                         <BsInstagram className='w-full h-full' />
                     </Link>
@@ -48,6 +50,7 @@ const Footer = (): React.JSX.Element => {
                         target="_blank"
                         rel="noreferrer"
                         className="w-8 h-8 flex items-center justify-center hover:text-[#70cbdd] rounded-full"
+                        aria-label="X, antigo Twitter"
                     >
                         <FaXTwitter className='w-full h-full' />
                     </Link>

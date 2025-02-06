@@ -122,12 +122,15 @@ const Services = (): React.JSX.Element => {
                         </div>
                     </div>
                     <button
+                        aria-label="Scroll to previous items"
                         onClick={scrollPrev}
                         className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition-colors z-10"
                     >
                         <IoIosArrowBack className="w-6 h-6" />
                     </button>
                     <button
+                        aria-label="Scroll to next items"
+
                         onClick={scrollNext}
                         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition-colors z-10"
                     >

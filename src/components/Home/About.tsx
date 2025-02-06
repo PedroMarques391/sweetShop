@@ -49,7 +49,7 @@ const About = (): React.JSX.Element => {
                             alt="About Image"
                             fill
                             priority
-                            quality={100}
+                            quality={80}
                             className="object-cover hover:scale-110 duration-700 transition-all"
                         />
                     </div>
