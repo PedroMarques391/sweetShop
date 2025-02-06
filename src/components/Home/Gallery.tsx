@@ -30,7 +30,7 @@ const Gallery = (): React.JSX.Element => {
                                         width={500}
                                         height={500}
                                         quality={100}
-                                        className="object-cover rounded-lg"
+                                        className="h-full w-full rounded-lg"
                                     />
 
                                     <div className="absolute top-0 left-0 h-full w-full bg-black/65 rounded-lg flex justify-center items-center duration-700 transition-opacity cursor-pointer opacity-0 hover:opacity-100 z-10">

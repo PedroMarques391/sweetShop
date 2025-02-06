@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  **Landing Page para Docerias - SweetShop**
 
-## Getting Started
+---
 
-First, run the development server:
+![Espaço reservado para uma imagem ou gif do site em ação](./public/img/image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este é um modelo de **Landing Page** feito sob medida para **docerias**, desenvolvido com foco em design, funcionalidade e performance. A aplicação é completamente **responsiva**, segue o conceito **mobile-first** e apresenta **SEO otimizado** para garantir uma experiência de usuário excepcional.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  **Estrutura**
 
-## Learn More
+1. **Hero (Apresentação):**
+   - Banner de boas-vindas destacando a doceria.  
+   - Texto impactante para chamar a atenção do usuário.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Sobre:**
+   - Pequena descrição sobre a doceria.  
+   - Um **carousel elegante** exibindo imagens relacionadas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Informações da Loja:**
+   - Destaques sobre a loja, como história, especialidades e diferenciais.  
+   - Botão **CTA** (Call to Action) que direciona o usuário para o atendimento (ex.: WhatsApp ou outro canal).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Cardápio:**
+   - **Cards em formato de carousel** apresentando os produtos disponíveis.  
+   - Foco em design limpo e organizado.
 
-## Deploy on Vercel
+5. **Comentários de Clientes:**
+   - Seção dedicada a **depoimentos de clientes** satisfeitos, com um formato visual atraente e funcional.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  **Tecnologias Utilizadas**
+
+- **[React](https://reactjs.org/):** Biblioteca JavaScript para construção de interfaces.  
+- **[Next.js](https://nextjs.org/):** Framework para renderização SSR e SSG.  
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário para estilização rápida e eficiente.  
+- **[Shadcn/ui](https://shadcn.dev/):** Componentes estilizados para React.  
+- **[Amble Carousel React](https://www.npmjs.com/package/amble-carousel-react):** Biblioteca para carousels elegantes e personalizados.  
+- **Imagens geradas por IA:** Elementos visuais criados com ferramentas de inteligência artificial.
+
