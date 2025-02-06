@@ -63,8 +63,10 @@ const About = (): React.JSX.Element => {
                             >
                                 <Image
                                     src={img}
-                                    alt={`About Image ${index + 1}`}
+                                    alt={`Imagem ${index + 1}`}
                                     priority
+                                    width={500}
+                                    height={500}
                                     quality={100}
                                     className="w-full h-full object-cover rounded-lg"
                                 />
