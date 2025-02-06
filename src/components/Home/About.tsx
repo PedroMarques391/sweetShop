@@ -45,6 +45,7 @@ const About = (): React.JSX.Element => {
                     <div className="relative w-full h-[400px] rounded-xl overflow-hidden">
                         <Image
                             src={image}
+                            sizes="(max-width: 768px) 100vw, 50vw"
                             alt="About Image"
                             fill
                             priority

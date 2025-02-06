@@ -20,17 +20,18 @@ const Gallery = (): React.JSX.Element => {
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000"
                                 key={index}
-                                className="flex justify-center items-center bg-white rounded-lg flex-1 p-2"
+                                className="flex  bg-white  w-auto rounded-lg p-2"
                             >
                                 <div className="relative w-full h-full">
                                     <Image
                                         src={item.logo}
                                         alt="Imagem da galeria"
-                                        priority
-                                        width={500}
-                                        height={500}
-                                        quality={100}
-                                        className="h-full w-full rounded-lg"
+                                        width={300}
+                                        height={300}
+                                        quality={80}
+                                        className="object-contain rounded-lg"
+                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                        loading="lazy"
                                     />
 
                                     <div className="absolute top-0 left-0 h-full w-full bg-black/65 rounded-lg flex justify-center items-center duration-700 transition-opacity cursor-pointer opacity-0 hover:opacity-100 z-10">

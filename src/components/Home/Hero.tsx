@@ -11,25 +11,23 @@ const Hero = (): React.JSX.Element => {
             data-aos="fade-up"
             data-aos-duration="1000"
         >
-            <div>
-                <Image
-                    sizes="100vw"
-                    fill
-                    className="object-cover opacity-60 md:hidden"
-                    alt="Foto do cachorro mobile"
-                    src={HeroImage}
-                    quality={100}
-                    priority
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
-                />
-                <div
-                    className="absolute inset-0 bg-black/50 md:hidden"
-                    data-aos="fade"
-                    data-aos-duration="800"
-                    data-aos-delay="200"
-                />
-            </div>
+            <Image
+                sizes="(max-width: 720px) 100vw, 0vw"
+                fill
+                className="object-cover opacity-60 md:hidden "
+                alt="Foto da loja"
+                src={HeroImage}
+                quality={100}
+                priority
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+            />
+            <div
+                className="absolute inset-0 bg-black/50 md:hidden"
+                data-aos="fade"
+                data-aos-duration="800"
+                data-aos-delay="200"
+            />
 
             <div
                 className="container mx-auto pb-16 md:pb-0 px-4 relative"
@@ -72,7 +70,7 @@ const Hero = (): React.JSX.Element => {
                             sizes="(max-width: 720px) 0vw, 100vw"
                             fill
                             className="object-cover"
-                            alt="Foto do cachorro"
+                            alt="Foto da Loja"
                             src={HeroImage}
                             quality={100}
                             priority
