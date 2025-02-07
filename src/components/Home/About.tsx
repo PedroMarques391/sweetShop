@@ -42,7 +42,7 @@ const About = (): React.JSX.Element => {
                 className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4"
             >
                 <div className="relative" data-aos="fade-right">
-                    <div className="relative w-full h-[400px] rounded-xl overflow-hidden">
+                    <div className="relative w-full h-[400px] rounded-xl">
                         <Image
                             src={image}
                             sizes="(max-width: 768px) 100vw, 50vw"
@@ -79,7 +79,7 @@ const About = (): React.JSX.Element => {
 
                 <div
                     className="space-y-6"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                 >
                     <h1 className="text-5xl font-bold text-[#D47FA6]">Sobre</h1>
                     <p>

@@ -17,7 +17,7 @@ const Hero = (): React.JSX.Element => {
                 className="object-cover opacity-60 md:hidden "
                 alt="Foto da loja"
                 src={HeroImage}
-                quality={100}
+                quality={80}
                 priority
                 data-aos="zoom-in"
                 data-aos-duration="1000"
